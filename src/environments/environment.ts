@@ -2,8 +2,13 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+const apiDomain = 'https://api.sreenidhi1sports.com/api/';
+//const apiDomain = 'http://localhost:8000/api/';
+
 export const environment = {
-  production: false
+  production: false,
+  studentAssessmentsApiUrl: `${apiDomain}student-assessments/`,
+  accountApiUrl: `${apiDomain}account/`,
 };
 
 /*
